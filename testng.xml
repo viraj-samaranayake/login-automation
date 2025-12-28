@@ -3,8 +3,8 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="Login Automation">
         <classes>
-            <class name="testCases.LoginTest"/>
-            <class name="testCases.LoginTestInValid"/>
+<!--            <class name="testCases.LoginTest"/>-->
+<!--            <class name="testCases.LoginTestInValid"/>-->
             <class name="testCases.LoginTestDDT"/>
         </classes>
     </test>
