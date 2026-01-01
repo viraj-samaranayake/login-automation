@@ -4,8 +4,9 @@
     <test verbose="2" preserve-order="true" name="Login Automation">
         <classes>
             <class name="testCases.LoginTest"/>
-<!--            <class name="testCases.LoginTestInValid"/>-->
-<!--            <class name="testCases.LoginTestDDT"/>-->
+            <class name="testCases.LoginTestInValid"/>
+            <class name="testCases.LoginTestDDT"/>
+            <class name="testCases.LoginTestDDT_Excel"/>
         </classes>
     </test>
 </suite>
