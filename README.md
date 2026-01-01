@@ -10,8 +10,8 @@ Repository: https://github.com/viraj-samaranayake/login-automation
 ## 📌 Project Objective
 
 The main objective of this project is to automate and validate user login scenarios such as:
-- Valid login
-- Invalid login
+- Valid login testing
+- Invalid login testing
 - Error message validation
 - Basic authentication flow verification
 
@@ -26,6 +26,7 @@ This framework can be easily extended to cover additional UI test cases.
 - **Test Framework:** TestNG  
 - **Build Tool:** Maven  
 - **Design Pattern:** Page Object Model (POM)  
+- **Testing framework:** Data Driven Testing (DDT)
 - **Browser Support:** Chrome / Firefox  
 
 ---
@@ -35,6 +36,8 @@ This framework can be easily extended to cover additional UI test cases.
 - Page Object Model (POM) implementation
 - Configurable browser and environment setup
 - Reusable utility methods
+- Apache POI - DDT Excel test execution
+- Extent Reports
 - TestNG-based test execution
 - Maven dependency management
 - Scalable and maintainable framework structure
@@ -57,8 +60,14 @@ Before running the project, ensure the following are installed:
    **Clone the repository**
    ```bash
    git clone https://github.com/viraj-samaranayake/login-automation.git
+   ```
+   ```bash
    cd login-automation
+   ```
+   ```bash
    mvn clean install
+   ```
+   ```bash
    mvn test
-
+   ```
 
